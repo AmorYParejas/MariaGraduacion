@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Álbum de Graduación | María</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon">
 </head>
 <body>
-    Maria
-    
+
+  <div class="carousel" id="carousel">
+    <section class="slide">
+      <div class="info">
+        <hr >
+        <h2>Foto Del Recuerdo</h2>
+        <p>El momento inolvidable.</p>
+      </div>
+      <img class="grupal-photo-img" src="img/recuerdos/Recuerdo (3).jpeg" alt="Foto Grupal">
+      
+    </section>
+
+    <section class="slide">
+      <div class="info">
+        <hr>
+        <h2>Recuerdos y Diversión</h2>
+        <p>Los mejores momentos.</p>
+      </div>
+      <article class="gallery">
+        <div class="user-container">
+          <div class="nickname">
+           
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (1).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+        <div class="user-container">
+          <div class="nickname">
+         
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (2).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+        <div class="user-container">
+          <div class="nickname">
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (3).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+        <div class="user-container">
+          <div class="nickname">
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (4).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+        <div class="user-container">
+          <div class="nickname">
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (5).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+        <div class="user-container">
+          <div class="nickname">
+          </div>
+          <img class="photo-profile" src="img/recuerdos/Recuerdo (6).jpeg" alt="">
+          <span class="name"></span>
+        </div>
+       
+      </article>
+    </section>
+
+  </div>
+
+  <!-- Indicadores fijos -->
+  <div class="indicators" id="indicators">
+    <div class="indicator"></div>
+    <div class="indicator"></div>
+  </div>
+  
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <img id="modal-img" src="" alt="Imagen Ampliada" />
+      <p id="modal-text">Texto del alumno</p>
+    </div>
+  </div>
+
+  <script src="script.js">
+   
+  </script>
 </body>
 </html>
